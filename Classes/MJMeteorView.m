@@ -34,7 +34,7 @@
     
     // 创建粒子
     CAEmitterCell *meteorCell = [[CAEmitterCell alloc] init];
-    UIImage *image = [UIImage imageNamed:@"img_home_meteor"];
+    UIImage *image = [UIImage imageNamed:@"img_meteor"];
     meteorCell.contents = (__bridge id)image.CGImage;
     meteorCell.birthRate = 0.5;             // 每秒创建的cell
     meteorCell.lifetime = 5;                // 生命周期
